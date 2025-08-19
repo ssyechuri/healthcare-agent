@@ -1,0 +1,60 @@
+# Healthcare Voice Agent - Dependencies
+# healthcare voice assistant with A2A triage integration
+
+# Core Python Requirements
+python-dotenv>=1.0.0
+
+# Async and HTTP
+asyncio-python>=3.11.0
+requests>=2.31.0
+aiohttp>=3.9.0
+
+# Speech Recognition and Audio Processing
+SpeechRecognition>=3.10.0
+pyaudio>=0.2.11
+pydub>=0.25.1
+
+# Text-to-Speech
+gTTS>=2.4.0
+pyttsx3>=2.90
+
+# Audio Playback and Processing
+pygame>=2.5.0
+
+# Date and Time Processing
+python-dateutil>=2.8.2
+
+# JSON and Data Processing
+ujson>=5.8.0
+
+# Logging and Monitoring
+structlog>=23.2.0
+
+# Healthcare and Medical Libraries
+# Note: These would be custom modules in your implementation
+# symp_triage>=1.0.0  # Your custom triage module
+
+# Optional: Enhanced Audio Processing
+# pyaudio>=0.2.11  # For advanced microphone control
+# sounddevice>=0.4.6  # Alternative audio interface
+# librosa>=0.10.1  # Advanced audio analysis
+
+# Optional: Advanced NLP (if using local models)
+# transformers>=4.35.0
+# torch>=2.1.0
+# numpy>=1.24.0
+
+# Development and Testing Dependencies (optional)
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+black>=23.9.0
+flake8>=6.1.0
+mypy>=1.6.0
+
+# Documentation (optional)
+# mkdocs>=1.5.0
+# mkdocs-material>=9.4.0
+
+# Production Deployment (optional)
+# gunicorn>=21.2.0
+# uvicorn>=0.24.0
